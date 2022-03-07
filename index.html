@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Project 104</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1 class="heading">
+                Image Recognition
+            </h1>
+            <br>
+            <p>The model is trained to identify: </p>
+            <b class="nameOfObjects">
+                Anish
+                <br>
+                Ashish
+            </b>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <div class="webcamDiv">
+                <div id="webcamImage"></div>
+                <button class="btn btn-success" onclick="captureImage()">Capture</button>
+            </div>
+            <div class="capturedDiv">
+                <div id="capturedImage"></div>
+                <button class="btn btn-warning">Identify</button>
+            </div>
+            <br>
+            <h3 class="identifiedMemberLabel">Detected Family Member: 
+                <br>
+                <span id="identfiedMember"></span>
+            </h3>
+        </center>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>

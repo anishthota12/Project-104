@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom right, #15f5fd, #016265);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#capturedImage, #webcamImage {
+    width: 392px;
+    height: 294px;
+    border: 10px black dashed;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.capturedDiv {
+    float: right;
+}
+
+.webcamDiv {
+    float: left;
+}
+
+p {
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+b {
+    font-size: 120%;
+}
